@@ -1,0 +1,47 @@
+.link {
+	text-decoration: none;
+	color: white;
+}.link:hover {
+	text-shadow: 0 0 5px #ffffff;
+}
+
+@font-face {
+    font-family: "lightFont";
+    src: url("/font.ttf");
+}
+
+
+.centreBox {
+	color: white;
+	overflow: hidden;
+	font-size: 20px;
+    line-height: 20px;
+	font-family: lightFont;
+	text-align: center;
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.effectBox {
+	color: #00FF00;
+	text-align: left;
+	white-space: pre;
+	width: 100%;
+	left: -20px;
+	top: -20px;
+	transform: translate(0%, 0%);
+}
+.bordered {
+	border-style: solid;
+	border-width: thin;
+}
+body {
+	background-color: #000000;
+	overflow: hidden;
+	position:absolute;
+	height:100%;
+	width:100%;
+	padding: 0;
+}
